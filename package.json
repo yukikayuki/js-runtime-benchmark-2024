@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "bun": "cd ./bun-hono && bun dev",
+    "bun": "cd ./bun-hono && bun run start",
     "deno": "cd ./deno-hono && deno task start",
     "node": "cd ./node-hono && npm run start",
     "benchmark": "bombardier -c 200 -n 1000000 http://localhost:3000"

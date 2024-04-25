@@ -17,7 +17,8 @@ npm run deno
 npm run node
 
 # start benchmark
-npm run benchmark
+npm run bombardier
+npm run oha
 ```
 
 ### Tools, Runtimes, Framework

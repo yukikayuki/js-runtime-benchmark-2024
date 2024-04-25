@@ -1,5 +1,5 @@
 {
-  "name": "benchmark-node-bun",
+  "name": "js-runtime-benchmark-2024",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,8 @@
     "bun": "cd ./bun-hono && bun run start",
     "deno": "cd ./deno-hono && deno task start",
     "node": "cd ./node-hono && npm run start",
-    "benchmark": "bombardier -c 200 -n 1000000 http://localhost:3000"
+    "bombardier": "bombardier -n 1000000 http://localhost:3000",
+    "oha": "oha -z 10s http://localhost:3000"
   },
   "author": "",
   "license": "MIT"
